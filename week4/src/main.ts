@@ -23,7 +23,7 @@ const main = async () => {
       app.renderer.resize(window.innerWidth, window.innerHeight);
   });
 
-  //WORK GOES HER E
+  //WORK GOES HERsE
   let total = Math.floor(window.innerWidth / 20);
 
     for (let i = 0; i < total; i++) {
