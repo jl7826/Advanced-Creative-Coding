@@ -1,8 +1,8 @@
 import * as PIXI from "pixi.js";
+import * as dat from 'dat.gui'
 import { Application, BatchGeometry, Container, LineStyle } from "pixi.js";
 import { Walk } from "./walk";
 import { Model } from "./model"
-import * as dat from 'dat.gui'
 
 // let spaceUrl = await nasaRequest();
 
