@@ -44,8 +44,11 @@ function onDrag(){
 
 ## Reference or Helpful Links
 [perlin.js](https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-946/perlin.js)
+
 [tutorial: generative art with random walker using p5.js](https://www.generativehut.com/post/random-walkers)
+
 [coding train: random walker](https://www.youtube.com/watch?v=bqF9w9TTfeo&list=PLfVCePkKDSvNtBFzpdwN6D8pLHHL0W8U3&index=11)
+
 [coding train: perlin noise](https://www.youtube.com/watch?v=y7sgcFhk6ZM&list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD&index=3)
 
 [cool pixi.js noise project](https://codepen.io/ThomasClaude/pen/GQMbaJ)
