@@ -1,5 +1,6 @@
 import { Container, Graphics } from "pixi.js";
 import { Model } from "./model"
+import { perlin } from './script'
 
 export class Walk {
 
@@ -31,7 +32,9 @@ export class Walk {
         let prex = this.walkData.x;
         let prey = this.walkData.y;
 
+        // @ts-ignore
         this.walkData.xvector += noise.simplex2(this.walkData.y, this.walkData.x);
+        // @ts-ignore
         this.walkData.yvector += noise.simplex2(this.walkData.x, this.walkData.y);
 
         this.walkData.x += this.walkData.xvector;

@@ -1,1 +1,5 @@
-export const p = noise;
+export class perlin {
+    constructor(){
+        this.p = noise
+    }
+}
