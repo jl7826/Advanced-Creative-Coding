@@ -1,3 +1,8 @@
+# Week 9 Still Life
+
+Different geometries in wireframes
+cool
+
 # vite-threejs-ts-starter
 
 A basic [THREE.js](https://threejs.org/) project in [TypeScript](https://www.typescriptlang.org/) with [Vite](https://vitejs.dev/). Includes OrbitControls, Stats and basic shadows.
