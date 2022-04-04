@@ -52,12 +52,12 @@ function initScene() {
 
     // TEXTURES
     textureLoader = new THREE.TextureLoader()
-    const matcapTexture = textureLoader.load('./resources/fonts/helvetiker_regular.typeface.json')
+    const matcapTexture = textureLoader.load('./resources/textures/matcaps/2')
 
     //FONTS
     fontLoader = new FontLoader()
     fontLoader.load(
-        './resources/fonts/helvetiker_regular.typeface.json',
+        './resources/fonts/helvetiker_regular.typeface',
         (font) => 
         {
             const textGeo = new TextGeometry(
