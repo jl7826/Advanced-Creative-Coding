@@ -54,7 +54,7 @@ const main = async () => {
     // bgBlock.y = height * 2;
     
     //MASKING
-    let tri = [];
+    let tri: Array<any> = [];
 
     for (let i = 0; i < 4; i++){
         tri.push(triGraphic.clone());
